@@ -1,0 +1,133 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, Sans-Serif;
+    font-size: 100%;
+}
+p {
+    font-size: 13px;
+    line-height: 1.3em;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background-color: yellowgreen;
+    padding: 50px 0;
+}
+.header h1,
+.header h2 {
+    color: white;
+    text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+    background-color: #222;
+    min-height: 64px;
+    border: 1px solid #101010;
+}
+.page-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.page-navigation li {
+    width: 100px;
+    float: left;
+}
+.page-navigation li a {
+    text-decoration: none;
+    line-height: 4em;
+    color: #9d9d9d;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+.page-navigation li a:hover {
+    background-color: black;
+    color: yellowgreen;
+}
+/* login form */
+.login {
+    float: right;
+    padding: 15px 0;
+}
+.login input {
+    outline: none;
+    border: 1px solid transparent;
+}
+.login input[type='text'],
+.login input[type='password']{
+    padding: 5px;
+    margin-right: 5px;
+}
+.login input[type='submit'] {
+    padding: 5px 15px;
+}
+.login input[type='submit']:hover,
+.collection-text button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+/* MAIN PART */
+.collections {
+    overflow: auto;
+}
+.collection-title {
+    font-size: 36px;
+    border-bottom: 1px solid #777;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.collection-title small {
+    font-size: 70%;
+    color: #777;
+}
+.collection-item-outer {
+    display: block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.collection-item {
+    border: 1px solid #959595;
+}
+.collection-item img,
+.collection-item video {
+    width: 100%;
+}
+.collection-text {
+    padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+    color: yellowgreen;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.collection-text p {
+    height: 80px;
+    overflow: hidden;
+}
+.collection-text button {
+    padding: 10px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+/* FOOTER */
+.footer {
+    background-color: yellowgreen;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer p {
+    color: white;
+}
