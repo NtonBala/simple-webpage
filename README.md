@@ -4,7 +4,7 @@ SimpleWebpage is just a single webpage having header, navigation bar plus login 
 
 ## Presentation
 
-This project is just something to start front-end with. There's an index.html file containing markup with external stylesheet and external JavaScript.
+This project relates to [Basics of Web UI development](https://courses.prometheus.org.ua/courses/LITS/104/2015_T4/course/) [Prometheus](https://prometheus.org.ua/) course.
 
 ## Running
 
